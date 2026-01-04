@@ -1,0 +1,40 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@font-face {
+  font-family: 'digital';
+  src: local('digital-7.regular'),
+    url('./fonts/digital-7.regular.ttf') format('truetype');
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+}
+
+.rectangle {
+  aspect-ratio: 1 / 2;
+}
+
+.one-third {
+  width: 33.33%;
+}
+
+.two-third {
+  width: 66.66%;
+}
+
+.btn {
+  font-size: 20px;
+  outline: 1px solid black;
+  color: #d2d2d4;
+  transition: background-color 0.05s ease;
+}
+
+.btn:hover {
+  outline: 1px solid rgb(230, 221, 212);
+  z-index: 1;
+  transform: scale(1.01);
+}
+
+.number {
+  background-color: rgb(86, 86, 86);
+}
